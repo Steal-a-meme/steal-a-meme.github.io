@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="content-language" content="en">
-    <meta name="external" content="true">
-    <meta name="distribution" content="Global">
-    <meta http-equiv="audience" content="General">
-    <link rel="icon" href="rs/imgs/human-expenditure-program-game1.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steal a Brainrot</title>
-    <meta name="keywords" content="steal a brainrot">
-    <meta name="news_keywords" content="steal a brainrot">
-    <meta name="description" content="Steal a Brainrot">
-    <link rel="stylesheet" type="text/css" href="rs/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .game-frame-container {
+            width: 90%;
+            max-width: 1000px;
+            height: 70vh;
+            border: 4px solid #00ff99;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
 
-<div id="game-page" class="main">
-    <div class="container">
-        <div class="row">
-            <div class="frame-box-game">
-                <iframe title="Steal a Brainrot" id="iframehtml5" class="d-block" width="100%" height="600px" target="_parent" src="https://st.8games.net/9/8g/igra-ukradi-brejnrot-original-3d/" frameborder="0" border="0" scrolling="no" allowfullscreen=""></iframe>
-            </div>
-        </div>
+    <div class="game-frame-container">
+        <iframe title="Steal a Brainrot" id="iframehtml5" src="https://st.8games.net/9/8g/igra-ukradi-brejnrot-original-3d/" frameborder="0" allowfullscreen=""></iframe>
     </div>
-</div>
+
 </body>
 </html>
